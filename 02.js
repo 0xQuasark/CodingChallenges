@@ -16,3 +16,18 @@
 // Sample Output:
 // true
 
+function isValidSubsequence(array, sequence) {
+  for (number of sequence) {
+    if (!array.includes(number)) {
+      return false
+    }
+  }
+  return true;
+}
+
+let array = [5, 1, 22, 25, 6, -1, 8, 10]
+let sequence = [1, 6, -1, 1]
+
+let answer = isValidSubsequence(array, sequence)
+
+console.log(answer);

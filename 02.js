@@ -15,8 +15,6 @@
 
 // Sample Output:
 // true
-
-
 function isValidSubsequence(array, sequence) {
   for (number of sequence) {
     if (!array.includes(number)) {

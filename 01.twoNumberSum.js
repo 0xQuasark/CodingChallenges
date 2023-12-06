@@ -8,6 +8,8 @@
 // array = [3, 5, -4, 8, 11, 1, -1, 6]
 // targetSum = 10
 
+
+
 // Sample Output:
 // [-1, 11] // the numbers could be in reverse order
 

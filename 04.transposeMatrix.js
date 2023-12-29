@@ -4,6 +4,7 @@
 // its main diagonal (which runs from top-left to bottom-right); it switches
 // the row and column indices of the original matrix.
 // https://www.algoexpert.io/questions/transpose-matrix
+// looking in to this 
 
 // 
 // 

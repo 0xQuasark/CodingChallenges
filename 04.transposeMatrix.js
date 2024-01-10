@@ -11,5 +11,5 @@
 // columns <-> rows --> 
 // import to save
 //  dds
-// open
+// open lsjds
 // mid

@@ -6,10 +6,43 @@
 // https://www.algoexpert.io/questions/transpose-matrix
 // looking in to this 
 
-// 
-// 
-// columns <-> rows --> 
-// import to save
-//  dds
-// open lsjds laud
-// mid
+
+function transposeMatrix(input) {
+
+ // Time complexity: O(w * h) 
+ // Space complexity: O(w * h) 
+
+  let answer = []
+  let i = 0;
+  let j = 0;
+  let columnCount = input[i].length // i.e. 3
+  let transposedRow = []
+
+  while (j < columnCount) {
+    for (let i = 0; i < input.length; i++) {
+        transposedRow.push(input[i][j])
+    }
+
+    j++;
+    answer.push(transposedRow);
+    transposedRow = [];
+}
+
+  return answer;
+}
+
+let input = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+input = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
+
+
+let answer = transposeMatrix(input)
+console.log(answer)

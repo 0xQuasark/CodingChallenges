@@ -9,10 +9,10 @@
 
 function transposeMatrix(input) {
 
- // Time complexity: O(w * h) 
-
- // Space complexity: O(w * h) 
-
+// Time complexity: O(w * h) 
+// 
+// Space complexity: O(w * h) 
+// 
 
   let answer = []
   let i = 0;
